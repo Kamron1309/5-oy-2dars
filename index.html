@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good4Me - Health & Wellness Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4a6f28',
+                        accent: '#e86b51',
+                        lightText: '#777',
+                    },
+                    fontFamily: {
+                        sans: ['Segoe UI', 'Arial', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-gray-800 bg-white">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50 py-4">
+        <div class="container mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="logo">
+                <img src="./rasmlar/Logo_-_Good4Me_140x 1.png" alt="Good4Me Logo" class="h-10">
+            </div>
+            <ul class="flex flex-wrap justify-center gap-4 md:gap-6">
+                <li><a href="#" class="font-semibold uppercase text-sm hover:text-primary transition">HOME</a></li>
+                <li><a href="#" class="font-semibold uppercase text-sm hover:text-primary transition">SHOP</a></li>
+                <li><a href="#" class="font-semibold uppercase text-sm hover:text-primary transition">FAQ'S</a></li>
+                <li><a href="#" class="font-semibold uppercase text-sm hover:text-primary transition">STOCKISTS</a></li>
+                <li><a href="#" class="font-semibold uppercase text-sm hover:text-primary transition">WHOESALE</a></li>
+                <li><a href="#" class="font-semibold uppercase text-sm hover:text-primary transition">CONTACT</a></li>
+            </ul>
+            <div class="flex items-center gap-5">
+                <div class="cart cursor-pointer hover:text-primary transition">
+                    <img src="./rasmlar/Group 4.png" alt="Cart" class="h-6">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+        class="bg-gradient-to-r from-black/50 to-black/50 bg-center bg-cover bg-no-repeat bg-[url('https://images.unsplash.com/photo-1498837167922-ddd27525d352')] min-h-[70vh] flex items-center justify-center text-center text-white py-20 px-5">
+        <div class="max-w-4xl mx-auto">
+            <img src="./rasmlar/1 1.png" alt="Apple Cider Vinegar" class="mx-auto mb-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Apple Cider Vinegar</h1>
+            <p class="text-xl mb-8">Your daily dose of health in one capsule</p>
+            <button
+                class="bg-accent hover:bg-[#d45a42] text-white font-bold py-3 px-8 rounded-lg transition transform hover:-translate-y-1 hover:shadow-lg">
+                Shop Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Deal Section -->
+    <section class="py-16 md:py-20 text-center" style="background-color: #FEF0E7;">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 relative pb-2">
+                GOOD4ME DEAL
+                <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-white"></span>
+            </h2>
+            <p class="text-lg max-w-3xl mx-auto mb-8">
+                Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all classy products today!
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+                <div class="bg-white/10 rounded-lg p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 10260.png" alt="Deal Product" class="mx-auto">
+                </div>
+                <div class="bg-white/10 rounded-lg p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 10261.png" alt="Deal Product" class="mx-auto">
+                </div>
+                <div class="bg-white/10 rounded-lg p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 10259.png" alt="Deal Product" class="mx-auto">
+                </div>
+                <div class="bg-white/10 rounded-lg p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 10262.png" alt="Deal Product" class="mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 md:py-20 text-center bg-white">
+        <div class="container mx-auto px-5">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="bg-white rounded-lg shadow-md p-8 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <div class="text-4xl text-primary mb-5">
+                        <img src="./rasmlar/Group 18.png" alt="Shipping" class="mx-auto h-12">
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">WORLDWIDE SHIPPING</h3>
+                    <p class="text-lightText">Fast and reliable delivery to your doorstep no matter where you are</p>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-md p-8 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <div class="text-4xl text-primary mb-5">
+                        <img src="./rasmlar/Group 18 (1).png" alt="Guarantee" class="mx-auto h-12">
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">30 DAYS GUARANTEE</h3>
+                    <p class="text-lightText">Not satisfied? Get a full refund within 30 days of purchase</p>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-md p-8 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <div class="text-4xl text-primary mb-5">
+                        <img src="./rasmlar/Group.png" alt="Payments" class="mx-auto h-12">
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">SECURED PAYMENTS</h3>
+                    <p class="text-lightText">Your transactions are protected with industry-standard encryption</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Health Control Section -->
+    <section class="py-16 md:py-20 text-center">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4 relative pb-2">
+                TAKE CONTROL OF YOUR HEALTH
+                <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-accent"></span>
+            </h2>
+            <p class="text-lg text-lightText max-w-3xl mx-auto mb-6">
+                The Good4Me range has been formulated based on scientific & traditional evidence.
+            </p>
+            <p class="mb-2">Our vitamins are here and ready to boost your mood, immunity and overall well-being!</p>
+            <p class="mb-8">Made in New Zealand from local and imported ingredients.</p>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-10">
+                <img src="./rasmlar/Rectangle 17.png" alt="Product" class="max-w-full md:max-w-[30%]">
+                <img src="./rasmlar/Rectangle 18.png" alt="Product" class="max-w-full md:max-w-[30%]">
+                <img src="./rasmlar/Rectangle 16.png" alt="Product" class="max-w-full md:max-w-[30%]">
+            </div>
+
+            <button
+                class="bg-accent hover:bg-[#d45a42] text-white font-bold py-3 px-8 rounded-lg transition transform hover:-translate-y-1 hover:shadow-lg mt-8">
+                BROWSE OUR RANGE
+            </button>
+        </div>
+    </section>
+    <!-- Product Categories -->
+    <section class="py-16 md:py-20 text-center">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4 relative pb-2">
+                OUR PRODUCTS ARE
+                <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-accent"></span>
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 35.png" alt="Category" class="mx-auto">
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 36.png" alt="Category" class="mx-auto">
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 35 (1).png" alt="Category" class="mx-auto">
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="./rasmlar/Group 36 (1).png" alt="Category" class="mx-auto">
+                </div>
+            </div>
+            <button
+                class="bg-accent hover:bg-[#d45a42] text-white font-bold py-3 px-8 rounded-lg transition transform hover:-translate-y-1 hover:shadow-lg mt-8">
+                VIEW ALL PRODUCTS
+            </button>
+        </div>
+    </section>
+    <!-- Products Section -->
+    <section class="py-16 md:py-20 bg-gray-100">
+        <div class="container mx-auto px-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="text-center md:text-left">
+                    <h4 class="text-lg font-semibold mb-2">REAL REVIEWS</h4>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">REAL RESULTS</h2>
+                    <img src="./rasmlar/Group 10266.png" alt="Reviews" class="mx-auto md:mx-0 max-w-full">
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-8">
+                        <p class="italic mb-6">"We have perfected our formulas over time, based on your feedback. Check
+                            out hundreds of reviews on our website. We can't wait until you are a part of our Good4Me
+                            Family."</p>
+                        <h4 class="font-bold">_Chloe H.</h4>
+                    </div>
+                    <img src="./rasmlar/good4me-full-range-value-pack-save-33-22069447786663_800x 1.png" alt="Product"
+                        class="w-full">
+                    <img src="./rasmlar/Group 10268.png" alt="Rating" class="p-4 mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop All Section -->
+    <section class="py-16 md:py-20 text-center">
+        <div class="container mx-auto px-5">
+            <h3 class="text-2xl font-bold text-primary mb-10">SHOP ALL</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+                <img src="./rasmlar/Group 35 (2).png" alt="Product" class="mx-auto">
+                <img src="./rasmlar/Group 36 (2).png" alt="Product" class="mx-auto">
+                <img src="./rasmlar/Group 35 (3).png" alt="Product" class="mx-auto">
+                <img src="./rasmlar/Group 36 (3).png" alt="Product" class="mx-auto">
+            </div>
+            <button
+                class="bg-accent hover:bg-[#d45a42] text-white font-bold py-3 px-8 rounded-lg transition transform hover:-translate-y-1 hover:shadow-lg">
+                VIEW ALL PRODUCTS
+            </button>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="py-16 md:py-20 text-center">
+        <div class="container mx-auto px-5">
+            <h3 class="text-2xl font-bold text-primary mb-10">LATEST NEWS</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <img src="./rasmlar/Group 10277.png" alt="News" class="mx-auto">
+                <img src="./rasmlar/Group 10280.png" alt="News" class="mx-auto">
+                <img src="./rasmlar/Group 10281.png" alt="News" class="mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 md:py-20 bg-gray-100 text-center">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-10">#GOOD4ME</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+                <img src="./rasmlar/Mask Group.png" alt="Gallery" class="w-full rounded">
+                <img src="./rasmlar/Mask Group (1).png" alt="Gallery" class="w-full rounded">
+                <img src="./rasmlar/Mask Group (2).png" alt="Gallery" class="w-full rounded">
+                <img src="./rasmlar/Mask Group (3).png" alt="Gallery" class="w-full rounded">
+                <img src="./rasmlar/Mask Group (4).png" alt="Gallery" class="w-full rounded">
+                <img src="./rasmlar/image 32.png" alt="Gallery" class="w-full rounded">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-5">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+                <div>
+                    <div class="text-2xl font-bold mb-4">GOOD4ME</div>
+                    <p class="text-gray-400">Good health is important, so all of our products have been carefully
+                        designed to bring out the best in you.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">SHOP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">All Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Best Sellers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">New Arrivals</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Special Offers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">ABOUT</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Our Story</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Ingredients</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Sustainability</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">HELP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">FAQs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Wholesale</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <div class="flex justify-center gap-4 mb-6">
+                    <img src="./rasmlar/Group (1).png" alt="Social" class="h-6">
+                    <img src="./rasmlar/Vector.png" alt="Social" class="h-6">
+                    <img src="./rasmlar/Group (2).png" alt="Social" class="h-6">
+                    <img src="./rasmlar/Group (3).png" alt="Social" class="h-6">
+                    <img src="./rasmlar/Group (4).png" alt="Social" class="h-6">
+                </div>
+                <p class="text-gray-500 text-sm mb-4">&copy; 2025 GOOD4ME. All rights reserved. Powered by Shopify</p>
+                <img src="./rasmlar/Screenshot-2021-01-26-at-2.46 1.png" alt="Payment Methods" class="mx-auto h-8">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
